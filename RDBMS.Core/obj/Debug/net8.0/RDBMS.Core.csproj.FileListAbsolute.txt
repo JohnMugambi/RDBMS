@@ -22,3 +22,15 @@ D:\Mugambi\SelfProjects\c#\RDBMS\RDBMS.Core\obj\Debug\net8.0\RDBMS.Core.dll
 D:\Mugambi\SelfProjects\c#\RDBMS\RDBMS.Core\obj\Debug\net8.0\refint\RDBMS.Core.dll
 D:\Mugambi\SelfProjects\c#\RDBMS\RDBMS.Core\obj\Debug\net8.0\RDBMS.Core.pdb
 D:\Mugambi\SelfProjects\c#\RDBMS\RDBMS.Core\obj\Debug\net8.0\ref\RDBMS.Core.dll
+D:\SWDev\aspnet\RDBMS\RDBMS.Core\bin\Debug\net8.0\RDBMS.Core.deps.json
+D:\SWDev\aspnet\RDBMS\RDBMS.Core\bin\Debug\net8.0\RDBMS.Core.dll
+D:\SWDev\aspnet\RDBMS\RDBMS.Core\bin\Debug\net8.0\RDBMS.Core.pdb
+D:\SWDev\aspnet\RDBMS\RDBMS.Core\obj\Debug\net8.0\RDBMS.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\SWDev\aspnet\RDBMS\RDBMS.Core\obj\Debug\net8.0\RDBMS.Core.AssemblyInfoInputs.cache
+D:\SWDev\aspnet\RDBMS\RDBMS.Core\obj\Debug\net8.0\RDBMS.Core.AssemblyInfo.cs
+D:\SWDev\aspnet\RDBMS\RDBMS.Core\obj\Debug\net8.0\RDBMS.Core.csproj.CoreCompileInputs.cache
+D:\SWDev\aspnet\RDBMS\RDBMS.Core\obj\Debug\net8.0\RDBMS.Core.sourcelink.json
+D:\SWDev\aspnet\RDBMS\RDBMS.Core\obj\Debug\net8.0\RDBMS.Core.dll
+D:\SWDev\aspnet\RDBMS\RDBMS.Core\obj\Debug\net8.0\refint\RDBMS.Core.dll
+D:\SWDev\aspnet\RDBMS\RDBMS.Core\obj\Debug\net8.0\RDBMS.Core.pdb
+D:\SWDev\aspnet\RDBMS\RDBMS.Core\obj\Debug\net8.0\ref\RDBMS.Core.dll

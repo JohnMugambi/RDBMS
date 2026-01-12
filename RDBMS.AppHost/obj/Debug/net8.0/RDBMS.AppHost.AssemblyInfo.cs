@@ -12,21 +12,21 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("5441c40b-9051-49b8-9b46-4db981a0df45")]
-[assembly: System.Reflection.AssemblyMetadata("dcpclipath", "C:\\Users\\jmuriithi\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.5.0\\too" +
-    "ls\\dcp.exe")]
-[assembly: System.Reflection.AssemblyMetadata("dcpextensionpaths", "C:\\Users\\jmuriithi\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.5.0\\too" +
-    "ls\\ext\\")]
-[assembly: System.Reflection.AssemblyMetadata("dcpbinpath", "C:\\Users\\jmuriithi\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.5.0\\too" +
-    "ls\\ext\\bin\\")]
-[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.AppHost")]
+[assembly: System.Reflection.AssemblyMetadata("dcpclipath", "C:\\Users\\Mugambi\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.5.0\\tools" +
+    "\\dcp.exe")]
+[assembly: System.Reflection.AssemblyMetadata("dcpextensionpaths", "C:\\Users\\Mugambi\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.5.0\\tools" +
+    "\\ext\\")]
+[assembly: System.Reflection.AssemblyMetadata("dcpbinpath", "C:\\Users\\Mugambi\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.5.0\\tools" +
+    "\\ext\\bin\\")]
+[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.AppHost")]
 [assembly: System.Reflection.AssemblyMetadata("apphostprojectname", "RDBMS.AppHost.csproj")]
-[assembly: System.Reflection.AssemblyMetadata("aspiredashboardpath", "C:\\Users\\jmuriithi\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\9.5.0\\tools\\Aspir" +
-    "e.Dashboard.exe")]
-[assembly: System.Reflection.AssemblyMetadataAttribute("apphostprojectbaseintermediateoutputpath", "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.AppHost\\obj\\")]
+[assembly: System.Reflection.AssemblyMetadata("aspiredashboardpath", "C:\\Users\\Mugambi\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\9.5.0\\tools\\Aspire." +
+    "Dashboard.exe")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("apphostprojectbaseintermediateoutputpath", "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.AppHost\\obj\\")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("RDBMS.AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6be6e2bd5ec33646255ad77a19d134fd20945926")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e19bb2a21752588651f27d729a531f148407034")]
 [assembly: System.Reflection.AssemblyProductAttribute("RDBMS.AppHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RDBMS.AppHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

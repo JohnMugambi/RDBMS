@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RDBMS.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6be6e2bd5ec33646255ad77a19d134fd20945926")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e19bb2a21752588651f27d729a531f148407034")]
 [assembly: System.Reflection.AssemblyProductAttribute("RDBMS.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RDBMS.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

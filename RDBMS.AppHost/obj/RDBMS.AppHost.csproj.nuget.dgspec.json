@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.AppHost\\RDBMS.AppHost.csproj": {}
+    "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.AppHost\\RDBMS.AppHost.csproj": {}
   },
   "projects": {
-    "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.AppHost\\RDBMS.AppHost.csproj": {
+    "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.AppHost\\RDBMS.AppHost.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.AppHost\\RDBMS.AppHost.csproj",
+        "projectUniqueName": "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.AppHost\\RDBMS.AppHost.csproj",
         "projectName": "RDBMS.AppHost",
-        "projectPath": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.AppHost\\RDBMS.AppHost.csproj",
-        "packagesPath": "C:\\Users\\jmuriithi\\.nuget\\packages\\",
-        "outputPath": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.AppHost\\obj\\",
+        "projectPath": "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.AppHost\\RDBMS.AppHost.csproj",
+        "packagesPath": "C:\\Users\\Mugambi\\.nuget\\packages\\",
+        "outputPath": "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.AppHost\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jmuriithi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mugambi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

@@ -17,5 +17,5 @@ public class RDBMS_AppHost
     /// <summary>
     /// The path to the Aspire Host project.
     /// </summary>
-    public static string ProjectPath => """D:\Mugambi\SelfProjects\c#\RDBMS\RDBMS.AppHost""";
+    public static string ProjectPath => """D:\SWDev\aspnet\RDBMS\RDBMS.AppHost""";
 }
