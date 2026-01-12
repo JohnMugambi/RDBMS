@@ -10,3 +10,15 @@ D:\Mugambi\SelfProjects\c#\RDBMS\RDBMS\RDBMS.Core\obj\Debug\net8.0\RDBMS.Core.dl
 D:\Mugambi\SelfProjects\c#\RDBMS\RDBMS\RDBMS.Core\obj\Debug\net8.0\refint\RDBMS.Core.dll
 D:\Mugambi\SelfProjects\c#\RDBMS\RDBMS\RDBMS.Core\obj\Debug\net8.0\RDBMS.Core.pdb
 D:\Mugambi\SelfProjects\c#\RDBMS\RDBMS\RDBMS.Core\obj\Debug\net8.0\ref\RDBMS.Core.dll
+D:\Mugambi\SelfProjects\c#\RDBMS\RDBMS.Core\bin\Debug\net8.0\RDBMS.Core.deps.json
+D:\Mugambi\SelfProjects\c#\RDBMS\RDBMS.Core\bin\Debug\net8.0\RDBMS.Core.dll
+D:\Mugambi\SelfProjects\c#\RDBMS\RDBMS.Core\bin\Debug\net8.0\RDBMS.Core.pdb
+D:\Mugambi\SelfProjects\c#\RDBMS\RDBMS.Core\obj\Debug\net8.0\RDBMS.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mugambi\SelfProjects\c#\RDBMS\RDBMS.Core\obj\Debug\net8.0\RDBMS.Core.AssemblyInfoInputs.cache
+D:\Mugambi\SelfProjects\c#\RDBMS\RDBMS.Core\obj\Debug\net8.0\RDBMS.Core.AssemblyInfo.cs
+D:\Mugambi\SelfProjects\c#\RDBMS\RDBMS.Core\obj\Debug\net8.0\RDBMS.Core.csproj.CoreCompileInputs.cache
+D:\Mugambi\SelfProjects\c#\RDBMS\RDBMS.Core\obj\Debug\net8.0\RDBMS.Core.sourcelink.json
+D:\Mugambi\SelfProjects\c#\RDBMS\RDBMS.Core\obj\Debug\net8.0\RDBMS.Core.dll
+D:\Mugambi\SelfProjects\c#\RDBMS\RDBMS.Core\obj\Debug\net8.0\refint\RDBMS.Core.dll
+D:\Mugambi\SelfProjects\c#\RDBMS\RDBMS.Core\obj\Debug\net8.0\RDBMS.Core.pdb
+D:\Mugambi\SelfProjects\c#\RDBMS\RDBMS.Core\obj\Debug\net8.0\ref\RDBMS.Core.dll

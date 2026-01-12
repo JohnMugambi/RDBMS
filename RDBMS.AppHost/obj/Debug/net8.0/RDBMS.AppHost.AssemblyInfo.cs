@@ -18,15 +18,15 @@ using System.Reflection;
     "ls\\ext\\")]
 [assembly: System.Reflection.AssemblyMetadata("dcpbinpath", "C:\\Users\\jmuriithi\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\9.5.0\\too" +
     "ls\\ext\\bin\\")]
-[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS\\RDBMS.AppHost")]
+[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.AppHost")]
 [assembly: System.Reflection.AssemblyMetadata("apphostprojectname", "RDBMS.AppHost.csproj")]
 [assembly: System.Reflection.AssemblyMetadata("aspiredashboardpath", "C:\\Users\\jmuriithi\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\9.5.0\\tools\\Aspir" +
     "e.Dashboard.exe")]
-[assembly: System.Reflection.AssemblyMetadataAttribute("apphostprojectbaseintermediateoutputpath", "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS\\RDBMS.AppHost\\obj\\")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("apphostprojectbaseintermediateoutputpath", "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.AppHost\\obj\\")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("RDBMS.AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77a74d225633553ae4706b6f891ae6951c7765e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6be6e2bd5ec33646255ad77a19d134fd20945926")]
 [assembly: System.Reflection.AssemblyProductAttribute("RDBMS.AppHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RDBMS.AppHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

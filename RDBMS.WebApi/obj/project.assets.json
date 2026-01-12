@@ -2697,11 +2697,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS\\RDBMS.WebApi\\RDBMS.WebApi.csproj",
+      "projectUniqueName": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.WebApi\\RDBMS.WebApi.csproj",
       "projectName": "RDBMS.WebApi",
-      "projectPath": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS\\RDBMS.WebApi\\RDBMS.WebApi.csproj",
+      "projectPath": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.WebApi\\RDBMS.WebApi.csproj",
       "packagesPath": "C:\\Users\\jmuriithi\\.nuget\\packages\\",
-      "outputPath": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS\\RDBMS.WebApi\\obj\\",
+      "outputPath": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2722,11 +2722,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS\\RDBMS.Core\\RDBMS.Core.csproj": {
-              "projectPath": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS\\RDBMS.Core\\RDBMS.Core.csproj"
+            "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.Core\\RDBMS.Core.csproj": {
+              "projectPath": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.Core\\RDBMS.Core.csproj"
             },
-            "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS\\RDBMS.ServiceDefaults\\RDBMS.ServiceDefaults.csproj": {
-              "projectPath": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS\\RDBMS.ServiceDefaults\\RDBMS.ServiceDefaults.csproj"
+            "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.ServiceDefaults\\RDBMS.ServiceDefaults.csproj": {
+              "projectPath": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.ServiceDefaults\\RDBMS.ServiceDefaults.csproj"
             }
           }
         }

@@ -1,18 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS\\",
+  "WorkspaceRootPath": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6B399B6C-93B1-4B5F-B926-387228227829}|RDBMS.AppHost\\RDBMS.AppHost.csproj|d:\\mugambi\\selfprojects\\c#\\rdbms\\rdbms\\rdbms.apphost\\rdbms.apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{EB476AD9-2AF7-4A49-9915-69E78B30E5FB}|RDBMS.Core\\RDBMS.Core.csproj|d:\\mugambi\\selfprojects\\c#\\rdbms\\rdbms.core\\models\\row.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB476AD9-2AF7-4A49-9915-69E78B30E5FB}|RDBMS.Core\\RDBMS.Core.csproj|solutionrelative:rdbms.core\\models\\row.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB476AD9-2AF7-4A49-9915-69E78B30E5FB}|RDBMS.Core\\RDBMS.Core.csproj|d:\\mugambi\\selfprojects\\c#\\rdbms\\rdbms.core\\models\\column.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB476AD9-2AF7-4A49-9915-69E78B30E5FB}|RDBMS.Core\\RDBMS.Core.csproj|solutionrelative:rdbms.core\\models\\column.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB476AD9-2AF7-4A49-9915-69E78B30E5FB}|RDBMS.Core\\RDBMS.Core.csproj|d:\\mugambi\\selfprojects\\c#\\rdbms\\rdbms.core\\models\\datatype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB476AD9-2AF7-4A49-9915-69E78B30E5FB}|RDBMS.Core\\RDBMS.Core.csproj|solutionrelative:rdbms.core\\models\\datatype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B399B6C-93B1-4B5F-B926-387228227829}|RDBMS.AppHost\\RDBMS.AppHost.csproj|d:\\mugambi\\selfprojects\\c#\\rdbms\\rdbms.apphost\\rdbms.apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{6B399B6C-93B1-4B5F-B926-387228227829}|RDBMS.AppHost\\RDBMS.AppHost.csproj|solutionrelative:rdbms.apphost\\rdbms.apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5F1460B-9FF9-4AF2-99CF-48864B8974FE}|RDBMS.CLI\\RDBMS.CLI.csproj|d:\\mugambi\\selfprojects\\c#\\rdbms\\rdbms\\rdbms.cli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D5F1460B-9FF9-4AF2-99CF-48864B8974FE}|RDBMS.CLI\\RDBMS.CLI.csproj|d:\\mugambi\\selfprojects\\c#\\rdbms\\rdbms.cli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5F1460B-9FF9-4AF2-99CF-48864B8974FE}|RDBMS.CLI\\RDBMS.CLI.csproj|solutionrelative:rdbms.cli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB476AD9-2AF7-4A49-9915-69E78B30E5FB}|RDBMS.Core\\RDBMS.Core.csproj|d:\\mugambi\\selfprojects\\c#\\rdbms\\rdbms\\rdbms.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB476AD9-2AF7-4A49-9915-69E78B30E5FB}|RDBMS.Core\\RDBMS.Core.csproj|solutionrelative:rdbms.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,21 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RDBMS.AppHost",
-              "DocumentMoniker": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS\\RDBMS.AppHost\\RDBMS.AppHost.csproj",
-              "RelativeDocumentMoniker": "RDBMS.AppHost\\RDBMS.AppHost.csproj",
-              "ToolTip": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS\\RDBMS.AppHost\\RDBMS.AppHost.csproj",
-              "RelativeToolTip": "RDBMS.AppHost\\RDBMS.AppHost.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-12T06:45:39.977Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -75,29 +70,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS\\RDBMS.CLI\\Program.cs",
-              "RelativeDocumentMoniker": "RDBMS.CLI\\Program.cs",
-              "ToolTip": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS\\RDBMS.CLI\\Program.cs",
-              "RelativeToolTip": "RDBMS.CLI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Row.cs",
+              "DocumentMoniker": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.Core\\Models\\Row.cs",
+              "RelativeDocumentMoniker": "RDBMS.Core\\Models\\Row.cs",
+              "ToolTip": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.Core\\Models\\Row.cs",
+              "RelativeToolTip": "RDBMS.Core\\Models\\Row.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwDIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T06:44:00.548Z",
+              "WhenOpened": "2026-01-12T07:08:41.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Column.cs",
+              "DocumentMoniker": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.Core\\Models\\Column.cs",
+              "RelativeDocumentMoniker": "RDBMS.Core\\Models\\Column.cs",
+              "ToolTip": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.Core\\Models\\Column.cs",
+              "RelativeToolTip": "RDBMS.Core\\Models\\Column.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowDMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T06:53:04.918Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS\\RDBMS.Core\\Class1.cs",
-              "RelativeDocumentMoniker": "RDBMS.Core\\Class1.cs",
-              "ToolTip": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS\\RDBMS.Core\\Class1.cs",
-              "RelativeToolTip": "RDBMS.Core\\Class1.cs",
+              "Title": "DataType.cs",
+              "DocumentMoniker": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.Core\\Models\\DataType.cs",
+              "RelativeDocumentMoniker": "RDBMS.Core\\Models\\DataType.cs",
+              "ToolTip": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.Core\\Models\\DataType.cs",
+              "RelativeToolTip": "RDBMS.Core\\Models\\DataType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T06:50:37.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RDBMS.AppHost.csproj",
+              "DocumentMoniker": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.AppHost\\RDBMS.AppHost.csproj",
+              "RelativeDocumentMoniker": "RDBMS.AppHost\\RDBMS.AppHost.csproj",
+              "ToolTip": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.AppHost\\RDBMS.AppHost.csproj",
+              "RelativeToolTip": "RDBMS.AppHost\\RDBMS.AppHost.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-12T06:45:39.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.CLI\\Program.cs",
+              "RelativeDocumentMoniker": "RDBMS.CLI\\Program.cs",
+              "ToolTip": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.CLI\\Program.cs",
+              "RelativeToolTip": "RDBMS.CLI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T06:41:47.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T06:44:00.548Z"
             }
           ]
         },

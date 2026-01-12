@@ -15,5 +15,5 @@ public class RDBMS_WebApi : global::Aspire.Hosting.IProjectMetadata
     /// <summary>
     /// The path to the RDBMS_WebApi project.
     /// </summary>
-    public string ProjectPath => """D:\Mugambi\SelfProjects\c#\RDBMS\RDBMS\RDBMS.WebApi\RDBMS.WebApi.csproj""";
+    public string ProjectPath => """D:\Mugambi\SelfProjects\c#\RDBMS\RDBMS.WebApi\RDBMS.WebApi.csproj""";
 }
