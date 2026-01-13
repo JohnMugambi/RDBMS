@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleRDBMS.Core.Models;
+namespace RDBMS.Core.Models;
 
 /// <summary>
 /// This is a column in a table

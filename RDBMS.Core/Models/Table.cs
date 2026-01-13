@@ -1,4 +1,4 @@
-﻿using SimpleRDBMS.Core.Models;
+﻿using RDBMS.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

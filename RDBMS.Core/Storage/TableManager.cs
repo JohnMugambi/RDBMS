@@ -1,5 +1,5 @@
 ﻿using RDBMS.Core.Models;
-using SimpleRDBMS.Core.Models;
+using RDBMS.Core.Models;
 
 namespace RDBMS.Core.Storage;
 
