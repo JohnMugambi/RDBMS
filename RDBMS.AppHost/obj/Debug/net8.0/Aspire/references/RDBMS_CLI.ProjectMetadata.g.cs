@@ -15,5 +15,5 @@ public class RDBMS_CLI : global::Aspire.Hosting.IProjectMetadata
     /// <summary>
     /// The path to the RDBMS_CLI project.
     /// </summary>
-    public string ProjectPath => """D:\SWDev\aspnet\RDBMS\RDBMS.CLI\RDBMS.CLI.csproj""";
+    public string ProjectPath => """D:\Mugambi\SelfProjects\c#\RDBMS\RDBMS.CLI\RDBMS.CLI.csproj""";
 }

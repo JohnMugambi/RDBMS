@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RDBMS.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e19bb2a21752588651f27d729a531f148407034")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0b24f493e50bb61f9173004dc93b4a9bc627fef")]
 [assembly: System.Reflection.AssemblyProductAttribute("RDBMS.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RDBMS.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.ServiceDefaults\\RDBMS.ServiceDefaults.csproj": {}
+    "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.ServiceDefaults\\RDBMS.ServiceDefaults.csproj": {}
   },
   "projects": {
-    "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.ServiceDefaults\\RDBMS.ServiceDefaults.csproj": {
+    "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.ServiceDefaults\\RDBMS.ServiceDefaults.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.ServiceDefaults\\RDBMS.ServiceDefaults.csproj",
+        "projectUniqueName": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.ServiceDefaults\\RDBMS.ServiceDefaults.csproj",
         "projectName": "RDBMS.ServiceDefaults",
-        "projectPath": "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.ServiceDefaults\\RDBMS.ServiceDefaults.csproj",
-        "packagesPath": "C:\\Users\\Mugambi\\.nuget\\packages\\",
-        "outputPath": "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.ServiceDefaults\\obj\\",
+        "projectPath": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.ServiceDefaults\\RDBMS.ServiceDefaults.csproj",
+        "packagesPath": "C:\\Users\\jmuriithi\\.nuget\\packages\\",
+        "outputPath": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.ServiceDefaults\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mugambi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jmuriithi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

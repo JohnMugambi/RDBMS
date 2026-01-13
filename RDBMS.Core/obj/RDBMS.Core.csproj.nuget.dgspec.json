@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.Core\\RDBMS.Core.csproj": {}
+    "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.Core\\RDBMS.Core.csproj": {}
   },
   "projects": {
-    "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.Core\\RDBMS.Core.csproj": {
+    "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.Core\\RDBMS.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.Core\\RDBMS.Core.csproj",
+        "projectUniqueName": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.Core\\RDBMS.Core.csproj",
         "projectName": "RDBMS.Core",
-        "projectPath": "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.Core\\RDBMS.Core.csproj",
-        "packagesPath": "C:\\Users\\Mugambi\\.nuget\\packages\\",
-        "outputPath": "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.Core\\obj\\",
+        "projectPath": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.Core\\RDBMS.Core.csproj",
+        "packagesPath": "C:\\Users\\jmuriithi\\.nuget\\packages\\",
+        "outputPath": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Mugambi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jmuriithi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
