@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36811.4 d17.14
+VisualStudioVersion = 17.14.36811.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDBMS.AppHost", "RDBMS.AppHost\RDBMS.AppHost.csproj", "{6B399B6C-93B1-4B5F-B926-387228227829}"
 EndProject
@@ -11,6 +11,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDBMS.WebApi", "RDBMS.WebApi\RDBMS.WebApi.csproj", "{1C74E63F-9AF3-06C4-D05D-9DBF63CE1D48}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDBMS.CLI", "RDBMS.CLI\RDBMS.CLI.csproj", "{D5F1460B-9FF9-4AF2-99CF-48864B8974FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RDBMS.Core.Tests", "RDBMS.Core.Tests\RDBMS.Core.Tests.csproj", "{4A9BB1AA-4C8C-47DB-8856-0A2ED60F862F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +40,10 @@ Global
 		{D5F1460B-9FF9-4AF2-99CF-48864B8974FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5F1460B-9FF9-4AF2-99CF-48864B8974FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5F1460B-9FF9-4AF2-99CF-48864B8974FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A9BB1AA-4C8C-47DB-8856-0A2ED60F862F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A9BB1AA-4C8C-47DB-8856-0A2ED60F862F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A9BB1AA-4C8C-47DB-8856-0A2ED60F862F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A9BB1AA-4C8C-47DB-8856-0A2ED60F862F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

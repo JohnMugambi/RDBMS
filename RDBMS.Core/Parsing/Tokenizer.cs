@@ -49,7 +49,7 @@ public class Tokenizer
             //Skip white spaces
             if (char.IsWhiteSpace(_currentChar))
             {
-                SkipLineComment();
+                SkipWhitespace();
                 continue;
             }
 
