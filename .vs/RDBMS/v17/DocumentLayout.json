@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F1460B-9FF9-4AF2-99CF-48864B8974FE}|RDBMS.CLI\\RDBMS.CLI.csproj|d:\\mugambi\\selfprojects\\c#\\rdbms\\rdbms.cli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F1460B-9FF9-4AF2-99CF-48864B8974FE}|RDBMS.CLI\\RDBMS.CLI.csproj|solutionrelative:rdbms.cli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F1460B-9FF9-4AF2-99CF-48864B8974FE}|RDBMS.CLI\\RDBMS.CLI.csproj|d:\\mugambi\\selfprojects\\c#\\rdbms\\rdbms.cli\\repl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F1460B-9FF9-4AF2-99CF-48864B8974FE}|RDBMS.CLI\\RDBMS.CLI.csproj|solutionrelative:rdbms.cli\\repl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F1460B-9FF9-4AF2-99CF-48864B8974FE}|RDBMS.CLI\\RDBMS.CLI.csproj|d:\\mugambi\\selfprojects\\c#\\rdbms\\rdbms.cli\\tableprinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F1460B-9FF9-4AF2-99CF-48864B8974FE}|RDBMS.CLI\\RDBMS.CLI.csproj|solutionrelative:rdbms.cli\\tableprinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,6 +63,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.CLI\\Program.cs",
+              "RelativeDocumentMoniker": "RDBMS.CLI\\Program.cs",
+              "ToolTip": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.CLI\\Program.cs",
+              "RelativeToolTip": "RDBMS.CLI\\Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAYwCUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T12:50:17.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tableprinter.cs",
+              "DocumentMoniker": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.CLI\\Tableprinter.cs",
+              "RelativeDocumentMoniker": "RDBMS.CLI\\Tableprinter.cs",
+              "ToolTip": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.CLI\\Tableprinter.cs",
+              "RelativeToolTip": "RDBMS.CLI\\Tableprinter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T12:41:34.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Repl.cs",
+              "DocumentMoniker": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.CLI\\Repl.cs",
+              "RelativeDocumentMoniker": "RDBMS.CLI\\Repl.cs",
+              "ToolTip": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.CLI\\Repl.cs",
+              "RelativeToolTip": "RDBMS.CLI\\Repl.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAADgv14AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T12:29:23.288Z",
+              "EditorCaption": ""
             }
           ]
         },

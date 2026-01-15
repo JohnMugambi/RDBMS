@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EB476AD9-2AF7-4A49-9915-69E78B30E5FB}|RDBMS.Core\\RDBMS.Core.csproj|d:\\mugambi\\selfprojects\\c#\\rdbms\\rdbms.core\\execution\\selectexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB476AD9-2AF7-4A49-9915-69E78B30E5FB}|RDBMS.Core\\RDBMS.Core.csproj|solutionrelative:rdbms.core\\execution\\selectexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5F1460B-9FF9-4AF2-99CF-48864B8974FE}|RDBMS.CLI\\RDBMS.CLI.csproj|d:\\mugambi\\selfprojects\\c#\\rdbms\\rdbms.cli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F1460B-9FF9-4AF2-99CF-48864B8974FE}|RDBMS.CLI\\RDBMS.CLI.csproj|solutionrelative:rdbms.cli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A9BB1AA-4C8C-47DB-8856-0A2ED60F862F}|RDBMS.Core.Tests\\RDBMS.Core.Tests.csproj|d:\\mugambi\\selfprojects\\c#\\rdbms\\rdbms.core.tests\\queryexecutortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A9BB1AA-4C8C-47DB-8856-0A2ED60F862F}|RDBMS.Core.Tests\\RDBMS.Core.Tests.csproj|solutionrelative:rdbms.core.tests\\queryexecutortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5F1460B-9FF9-4AF2-99CF-48864B8974FE}|RDBMS.CLI\\RDBMS.CLI.csproj|d:\\mugambi\\selfprojects\\c#\\rdbms\\rdbms.cli\\repl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F1460B-9FF9-4AF2-99CF-48864B8974FE}|RDBMS.CLI\\RDBMS.CLI.csproj|solutionrelative:rdbms.cli\\repl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB476AD9-2AF7-4A49-9915-69E78B30E5FB}|RDBMS.Core\\RDBMS.Core.csproj|d:\\mugambi\\selfprojects\\c#\\rdbms\\rdbms.core\\execution\\queryexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB476AD9-2AF7-4A49-9915-69E78B30E5FB}|RDBMS.Core\\RDBMS.Core.csproj|solutionrelative:rdbms.core\\execution\\queryexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB476AD9-2AF7-4A49-9915-69E78B30E5FB}|RDBMS.Core\\RDBMS.Core.csproj|d:\\mugambi\\selfprojects\\c#\\rdbms\\rdbms.core\\storage\\storageexceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB476AD9-2AF7-4A49-9915-69E78B30E5FB}|RDBMS.Core\\RDBMS.Core.csproj|solutionrelative:rdbms.core\\storage\\storageexceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB476AD9-2AF7-4A49-9915-69E78B30E5FB}|RDBMS.Core\\RDBMS.Core.csproj|d:\\mugambi\\selfprojects\\c#\\rdbms\\rdbms.core\\execution\\deleteexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB476AD9-2AF7-4A49-9915-69E78B30E5FB}|RDBMS.Core\\RDBMS.Core.csproj|solutionrelative:rdbms.core\\execution\\deleteexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB476AD9-2AF7-4A49-9915-69E78B30E5FB}|RDBMS.Core\\RDBMS.Core.csproj|d:\\mugambi\\selfprojects\\c#\\rdbms\\rdbms.core\\execution\\updateexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB476AD9-2AF7-4A49-9915-69E78B30E5FB}|RDBMS.Core\\RDBMS.Core.csproj|solutionrelative:rdbms.core\\execution\\updateexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB476AD9-2AF7-4A49-9915-69E78B30E5FB}|RDBMS.Core\\RDBMS.Core.csproj|d:\\mugambi\\selfprojects\\c#\\rdbms\\rdbms.core\\execution\\insertexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB476AD9-2AF7-4A49-9915-69E78B30E5FB}|RDBMS.Core\\RDBMS.Core.csproj|solutionrelative:rdbms.core\\execution\\insertexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5F1460B-9FF9-4AF2-99CF-48864B8974FE}|RDBMS.CLI\\RDBMS.CLI.csproj|d:\\mugambi\\selfprojects\\c#\\rdbms\\rdbms.cli\\tableprinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F1460B-9FF9-4AF2-99CF-48864B8974FE}|RDBMS.CLI\\RDBMS.CLI.csproj|solutionrelative:rdbms.cli\\tableprinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,93 +66,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StorageExceptions.cs",
-              "DocumentMoniker": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.Core\\Storage\\StorageExceptions.cs",
-              "RelativeDocumentMoniker": "RDBMS.Core\\Storage\\StorageExceptions.cs",
-              "ToolTip": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.Core\\Storage\\StorageExceptions.cs",
-              "RelativeToolTip": "RDBMS.Core\\Storage\\StorageExceptions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.CLI\\Program.cs",
+              "RelativeDocumentMoniker": "RDBMS.CLI\\Program.cs",
+              "ToolTip": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.CLI\\Program.cs",
+              "RelativeToolTip": "RDBMS.CLI\\Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAYwCUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T12:03:27.245Z",
+              "WhenOpened": "2026-01-15T12:50:17.812Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "QueryExecutor.cs",
-              "DocumentMoniker": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.Core\\Execution\\QueryExecutor.cs",
-              "RelativeDocumentMoniker": "RDBMS.Core\\Execution\\QueryExecutor.cs",
-              "ToolTip": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.Core\\Execution\\QueryExecutor.cs",
-              "RelativeToolTip": "RDBMS.Core\\Execution\\QueryExecutor.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAzwCgAAAAkAAAAAAAAAA==",
+              "Title": "Tableprinter.cs",
+              "DocumentMoniker": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.CLI\\Tableprinter.cs",
+              "RelativeDocumentMoniker": "RDBMS.CLI\\Tableprinter.cs",
+              "ToolTip": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.CLI\\Tableprinter.cs",
+              "RelativeToolTip": "RDBMS.CLI\\Tableprinter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T08:53:09.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UpdateExecutor.cs",
-              "DocumentMoniker": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.Core\\Execution\\UpdateExecutor.cs",
-              "RelativeDocumentMoniker": "RDBMS.Core\\Execution\\UpdateExecutor.cs",
-              "ToolTip": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.Core\\Execution\\UpdateExecutor.cs",
-              "RelativeToolTip": "RDBMS.Core\\Execution\\UpdateExecutor.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAUwEgAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T08:53:17.665Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "InsertExecutor.cs",
-              "DocumentMoniker": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.Core\\Execution\\InsertExecutor.cs",
-              "RelativeDocumentMoniker": "RDBMS.Core\\Execution\\InsertExecutor.cs",
-              "ToolTip": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.Core\\Execution\\InsertExecutor.cs",
-              "RelativeToolTip": "RDBMS.Core\\Execution\\InsertExecutor.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAADgv2EAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T08:53:15.693Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SelectExecutor.cs",
-              "DocumentMoniker": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.Core\\Execution\\SelectExecutor.cs",
-              "RelativeDocumentMoniker": "RDBMS.Core\\Execution\\SelectExecutor.cs",
-              "ToolTip": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.Core\\Execution\\SelectExecutor.cs",
-              "RelativeToolTip": "RDBMS.Core\\Execution\\SelectExecutor.cs",
-              "ViewState": "AgIAALsAAAAAAAAAAAAwwM8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T08:53:12.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DeleteExecutor.cs",
-              "DocumentMoniker": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.Core\\Execution\\DeleteExecutor.cs",
-              "RelativeDocumentMoniker": "RDBMS.Core\\Execution\\DeleteExecutor.cs",
-              "ToolTip": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.Core\\Execution\\DeleteExecutor.cs",
-              "RelativeToolTip": "RDBMS.Core\\Execution\\DeleteExecutor.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAswBcAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T08:52:26.872Z",
+              "WhenOpened": "2026-01-15T12:41:34.728Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "QueryExecutorTests.cs",
-              "DocumentMoniker": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.Core.Tests\\QueryExecutorTests.cs",
-              "RelativeDocumentMoniker": "RDBMS.Core.Tests\\QueryExecutorTests.cs",
-              "ToolTip": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.Core.Tests\\QueryExecutorTests.cs",
-              "RelativeToolTip": "RDBMS.Core.Tests\\QueryExecutorTests.cs",
-              "ViewState": "AgIAAFYBAAAAAAAAAAAcwGABAAAVAAAAAAAAAA==",
+              "Title": "Repl.cs",
+              "DocumentMoniker": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.CLI\\Repl.cs",
+              "RelativeDocumentMoniker": "RDBMS.CLI\\Repl.cs",
+              "ToolTip": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.CLI\\Repl.cs",
+              "RelativeToolTip": "RDBMS.CLI\\Repl.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAADgv14AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T08:52:03.418Z",
+              "WhenOpened": "2026-01-15T12:29:23.288Z",
               "EditorCaption": ""
             }
           ]

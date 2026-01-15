@@ -1,5 +1,6 @@
 ﻿using RDBMS.Core;
 using RDBMS.Core.Models;
+using RDBMS.CLI;
 
 namespace RDBMS.CLI;
 
@@ -7,110 +8,67 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("=== RDBMS Test ===\n");
-
         try
         {
-            // Create database
-            var db = new Database("TestDB");
-            Console.WriteLine("✓ Database created\n");
+            // Parse command line arguments
+            string dataDirectory = GetDataDirectory(args);
 
-            // Create a users table
-            var columns = new List<Column>
-            {
-                new Column("id", DataType.INT) { IsPrimaryKey = true, IsNotNull = true },
-                new Column("name", DataType.VARCHAR) { MaxLength = 100, IsNotNull = true },
-                new Column("email", DataType.VARCHAR) { MaxLength = 200, IsUnique = true },
-                new Column("age", DataType.INT),
-                new Column("active", DataType.BOOLEAN),
-                new Column("created_at", DataType.DATETIME)
-            };
+            // Ensure data directory exists
+            Directory.CreateDirectory(dataDirectory);
 
-            db.CreateTable("users", columns);
-            Console.WriteLine("✓ Table 'users' created\n");
+            // Display welcome banner
+            DisplayWelcomeBanner();
 
-            // Print schema
-            db.PrintTableSchema("users");
-
-            // Insert some data
-            db.InsertRow("users", new Dictionary<string, object?>
-            {
-                { "id", 1 },
-                { "name", "John Doe" },
-                { "email", "john@example.com" },
-                { "age", 30 },
-                { "active", true },
-                { "created_at", DateTime.Now }
-            });
-
-            db.InsertRow("users", new Dictionary<string, object?>
-            {
-                { "id", 2 },
-                { "name", "Jane Smith" },
-                { "email", "jane@example.com" },
-                { "age", 25 },
-                { "active", true },
-                { "created_at", DateTime.Now }
-            });
-
-            db.InsertRow("users", new Dictionary<string, object?>
-            {
-                { "id", 3 },
-                { "name", "Bob Wilson" },
-                { "email", "bob@example.com" },
-                { "age", 35 },
-                { "active", false },
-                { "created_at", DateTime.Now }
-            });
-
-            Console.WriteLine("✓ Inserted 3 rows\n");
-
-            // Print data
-            db.PrintTableData("users");
-
-            // Create an index
-            db.CreateIndex("users", "idx_active", "active");
-            Console.WriteLine("✓ Created index on 'active' column\n");
-
-            // Select active users
-            var activeUsers = db.Select("users", row =>
-                row["active"] is bool active && active);
-
-            Console.WriteLine($"Active users: {activeUsers.Count}");
-            foreach (var user in activeUsers)
-            {
-                Console.WriteLine($"  - {user["name"]} ({user["email"]})");
-            }
-            Console.WriteLine();
-
-            // Update a user
-            int updated = db.Update("users",
-                row => (int)row["id"]! == 1,
-                row => row["age"] = 31);
-
-            Console.WriteLine($"✓ Updated {updated} row(s)\n");
-
-            // Delete a user
-            int deleted = db.Delete("users",
-                row => (int)row["id"]! == 3);
-
-            Console.WriteLine($"✓ Deleted {deleted} row(s)\n");
-
-            // Print final state
-            db.PrintTableData("users");
-
-            // Database info
-            db.PrintDatabaseInfo();
-
-            Console.WriteLine("✓ All tests passed!\n");
+            // Create and start REPL
+            var repl = new Repl(dataDirectory);
+            repl.Start();
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"✗ Error: {ex.Message}");
-            Console.WriteLine($"Stack Trace: {ex.StackTrace}");
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("\n╔════════════════════════════════════════════════════════╗");
+            Console.WriteLine("║                   FATAL ERROR                          ║");
+            Console.WriteLine("╚════════════════════════════════════════════════════════╝\n");
+            Console.WriteLine($"Error: {ex.Message}");
+            Console.WriteLine($"\nStack trace:\n{ex.StackTrace}");
+            Console.ResetColor();
+            Console.WriteLine("\nPress any key to exit...");
+            Console.ReadKey();
+        
+        }
+           
+    }
+
+    private static string GetDataDirectory(string[] args)
+    {
+        for (int i =0; i< args.Length -1; i++)
+        {
+            if (args[i] =="--data" || args[i] == "-d")
+            {
+                return args[i + 1];
+            }
         }
 
-        Console.WriteLine("\nPress any key to exit...");
-        Console.ReadKey();
+        return Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile),
+            ".rbdms");
+    }
+
+    private static void DisplayWelcomeBanner()
+    {
+        Console.Clear();
+        Console.ForegroundColor = ConsoleColor.Cyan;
+        Console.WriteLine("╔════════════════════════════════════════════════════════╗");
+        Console.WriteLine("║                                                        ║");
+        Console.WriteLine("║               RDBMS - Interactive Shell                ║");
+        Console.WriteLine("║                                                        ║");
+        Console.WriteLine("║                      DevChallenge                      ║");
+        Console.WriteLine("║                                                        ║");
+        Console.WriteLine("╚════════════════════════════════════════════════════════╝");
+        Console.ResetColor();
+        Console.WriteLine();
+        Console.WriteLine("Welcome to Simple RDBMS!");
+        Console.WriteLine("Type '.help' for available commands or enter SQL statements.");
+        Console.WriteLine("Type '.exit' or '.quit' to exit.");
+        Console.WriteLine();
     }
 }

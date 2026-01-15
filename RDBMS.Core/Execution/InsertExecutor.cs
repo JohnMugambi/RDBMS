@@ -1,5 +1,4 @@
-﻿// File: SimpleRDBMS.Core/Execution/InsertExecutor.cs
-using RDBMS.Core.Execution;
+﻿using RDBMS.Core.Execution;
 using RDBMS.Core.Models;
 using RDBMS.Core.Parsing;
 using RDBMS.Core.Storage;
