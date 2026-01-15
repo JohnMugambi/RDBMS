@@ -92,8 +92,8 @@ public class StorageEngine
     {
         var table = GetTable(tableName);
 
-        // Validate row
-        var (isValid, errorMessage) = table.ValidateRow(row);
+        // Validate row (no exclusion for new rows)
+        var (isValid, errorMessage) = table.ValidateRow(row, excludeRowIndex: null);
         if (!isValid)
         {
             throw new StorageException(errorMessage!);
@@ -127,8 +127,8 @@ public class StorageEngine
                 var oldRow = row.Clone();
                 updateAction(row);
 
-                // Validate updated row
-                var (isValid, errorMessage) = table.ValidateRow(row);
+                // Validate updated row - pass the current index to exclude it from constraint checks
+                var (isValid, errorMessage) = table.ValidateRow(row, excludeRowIndex: i);
                 if (!isValid)
                 {
                     throw new StorageException(errorMessage!);

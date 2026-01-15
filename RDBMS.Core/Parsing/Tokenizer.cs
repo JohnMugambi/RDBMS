@@ -195,16 +195,34 @@ public class Tokenizer
         char quoteChar = _currentChar;
         var sb = new StringBuilder();
 
-        Advance();
+        Advance(); // Skip opening quote
 
-        while (_currentChar != '\0' && _currentChar != quoteChar)
+        while (_currentChar != '\0')
         {
-            if (_currentChar == '\\') // Handle escape sequences
+            if (_currentChar == quoteChar)
             {
+                // Check if it's an escaped quote (doubled quote)
+                if (Peek() == quoteChar)
+                {
+                    // It's an escaped quote - add single quote to result
+                    sb.Append(quoteChar);
+                    Advance(); // Skip first quote
+                    Advance(); // Skip second quote
+                    continue; // Continue reading the string
+                }
+                else
+                {
+                    // It's the closing quote - end of string
+                    Advance(); // Skip closing quote
+                    return new Token(TokenType.STRING_LITERAL, sb.ToString(), startPos);
+                }
+            }
+            else if (_currentChar == '\\')
+            {
+                // Handle backslash escape sequences
                 Advance();
                 if (_currentChar != '\0')
                 {
-                    // Simple escape handling: \n, \t, \\, \'
                     switch (_currentChar)
                     {
                         case 'n': sb.Append('\n'); break;
@@ -218,13 +236,6 @@ public class Tokenizer
                     Advance();
                 }
             }
-            else if (_currentChar == quoteChar && Peek() == quoteChar)
-            {
-                // Handle doubled quotes: '' or ""
-                sb.Append(quoteChar);
-                Advance();
-                Advance();
-            }
             else
             {
                 sb.Append(_currentChar);
@@ -232,16 +243,8 @@ public class Tokenizer
             }
         }
 
-        if (_currentChar == quoteChar)
-        {
-            Advance(); // Skip closing quote
-        }
-        else
-        {
-            throw new SqlSyntaxException($"Unterminated string literal at position {startPos}");
-        }
-
-        return new Token(TokenType.STRING_LITERAL, sb.ToString(), startPos);
+        // If we reach here, we hit end of input without finding closing quote
+        throw new SqlSyntaxException($"Unterminated string literal at position {startPos}");
     }
 
     /// <summary>

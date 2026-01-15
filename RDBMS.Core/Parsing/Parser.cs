@@ -413,7 +413,8 @@ namespace RDBMS.Core.Parsing
                 }
                 else if (Match(TokenType.NOT))
                 {
-                    Consume(TokenType.NULL, "Expected NULL after NOT");
+                    // CHANGE THIS LINE - use NULL_LITERAL instead of NULL
+                    Consume(TokenType.NULL_LITERAL, "Expected NULL after NOT");
                     column.IsNotNull = true;
                 }
                 else
@@ -424,6 +425,7 @@ namespace RDBMS.Core.Parsing
 
             return column;
         }
+
 
         /// <summary>
         /// Parse CREATE INDEX

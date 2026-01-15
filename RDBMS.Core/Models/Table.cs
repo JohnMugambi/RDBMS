@@ -33,6 +33,14 @@ public class Table
         Indexes = new List<Index>();
     }
 
+    public Table(string name, List<Column> columns)
+    {
+        Name = name;
+        Columns = columns ?? new List<Column>();
+        Rows = new List<Row>();
+        Indexes = new List<Index>();
+    }
+
     /// <summary>
     /// Gets a column by name (case-insensitive)
     /// </summary>
@@ -94,7 +102,9 @@ public class Table
     /// <summary>
     /// Validates that a row's values match column types and constraints
     /// </summary>
-    public (bool isValid, string? errorMessage) ValidateRow(Row row)
+    /// <param name="row">The row to validate</param>
+    /// <param name="excludeRowIndex">Row index to exclude from constraint checks (for updates)</param>
+    public (bool isValid, string? errorMessage) ValidateRow(Row row, int? excludeRowIndex = null)
     {
         foreach (var column in Columns)
         {
@@ -115,8 +125,18 @@ public class Table
             // Check UNIQUE constraint
             if (column.IsUnique && value != null)
             {
-                var existingRows = Rows.Where(r =>
-                    Equals(r[column.Name], value)).ToList();
+                var existingRows = new List<Row>();
+                for (int i = 0; i < Rows.Count; i++)
+                {
+                    // Skip the row being updated
+                    if (excludeRowIndex.HasValue && i == excludeRowIndex.Value)
+                        continue;
+
+                    if (Equals(Rows[i][column.Name], value))
+                    {
+                        existingRows.Add(Rows[i]);
+                    }
+                }
 
                 if (existingRows.Any())
                 {
@@ -132,8 +152,18 @@ public class Table
                     return (false, $"PRIMARY KEY column '{column.Name}' cannot be NULL");
                 }
 
-                var existingRows = Rows.Where(r =>
-                    Equals(r[column.Name], value)).ToList();
+                var existingRows = new List<Row>();
+                for (int i = 0; i < Rows.Count; i++)
+                {
+                    // Skip the row being updated
+                    if (excludeRowIndex.HasValue && i == excludeRowIndex.Value)
+                        continue;
+
+                    if (Equals(Rows[i][column.Name], value))
+                    {
+                        existingRows.Add(Rows[i]);
+                    }
+                }
 
                 if (existingRows.Any())
                 {

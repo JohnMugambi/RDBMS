@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static RDBMS.Core.Parsing.Tokenizer;
 
 namespace RDBMS.Core.Tests
 {
@@ -602,13 +603,13 @@ namespace RDBMS.Core.Tests
             var tokens = tokenizer.Tokenize();
 
             // Assert
-            Assert.Equal(14, tokens.Count); // Including EOF
+            Assert.Equal(15, tokens.Count); // Including EOF
             Assert.Equal(TokenType.INSERT, tokens[0].Type);
             Assert.Equal(TokenType.INTO, tokens[1].Type);
             Assert.Equal(TokenType.IDENTIFIER, tokens[2].Type);
             Assert.Equal(TokenType.LEFT_PAREN, tokens[3].Type);
-            Assert.Equal(TokenType.STRING_LITERAL, tokens[9].Type);
-            Assert.Equal(TokenType.NUMBER_LITERAL, tokens[11].Type);
+            Assert.Equal(TokenType.STRING_LITERAL, tokens[10].Type);
+            Assert.Equal(TokenType.NUMBER_LITERAL, tokens[12].Type);
         }
 
         [Fact]

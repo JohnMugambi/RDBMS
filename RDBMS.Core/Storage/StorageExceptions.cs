@@ -9,7 +9,7 @@ namespace RDBMS.Core.Storage;
 public class TableNotFoundException : Exception
 {
     public TableNotFoundException(string TableName) 
-        : base($"Tabele {TableName} not found")
+        : base($"Table {TableName} not found")
     {
     }
 }

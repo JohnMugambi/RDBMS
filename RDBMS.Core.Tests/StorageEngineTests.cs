@@ -21,22 +21,15 @@ public class StorageEngineTests : IDisposable
     }
 
     [Fact]
-    public void SaveTable_NewTable_CreatesFile()
+    public void CreateTable_NewTable_CreatesFile()
     {
         // Arrange
-        var table = new Table
-        {
-            Name = "users",
-            Columns = new List<Column>
-            {
-                new Column("id", DataType.INT) { IsPrimaryKey = true },
-                new Column("name", DataType.VARCHAR) { MaxLength = 100 }
-            }
-        };
+        var table = new Table("users");
+        table.Columns.Add(new Column("id", DataType.INT) { IsPrimaryKey = true });
+        table.Columns.Add(new Column("name", DataType.VARCHAR) { MaxLength = 100 });
 
         // Act
-        //TODO : Implement SaveTable method in StorageEngine
-        //_storage.SaveTable(table);
+        _storage.CreateTable(table);
 
         // Assert
         var schemaFile = Path.Combine(_testDbPath, "users_schema.json");
