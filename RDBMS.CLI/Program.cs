@@ -55,7 +55,11 @@ class Program
 
     private static void DisplayWelcomeBanner()
     {
-        Console.Clear();
+        if (!Console.IsOutputRedirected)
+        {
+            Console.Clear();
+        }
+
         Console.ForegroundColor = ConsoleColor.Cyan;
         Console.WriteLine("╔════════════════════════════════════════════════════════╗");
         Console.WriteLine("║                                                        ║");

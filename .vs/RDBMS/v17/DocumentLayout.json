@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{6B399B6C-93B1-4B5F-B926-387228227829}|RDBMS.AppHost\\RDBMS.AppHost.csproj|d:\\swdev\\aspnet\\rdbms\\rdbms.apphost\\apphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B399B6C-93B1-4B5F-B926-387228227829}|RDBMS.AppHost\\RDBMS.AppHost.csproj|solutionrelative:rdbms.apphost\\apphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F1460B-9FF9-4AF2-99CF-48864B8974FE}|RDBMS.CLI\\RDBMS.CLI.csproj|d:\\swdev\\aspnet\\rdbms\\rdbms.cli\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D5F1460B-9FF9-4AF2-99CF-48864B8974FE}|RDBMS.CLI\\RDBMS.CLI.csproj|solutionrelative:rdbms.cli\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F1460B-9FF9-4AF2-99CF-48864B8974FE}|RDBMS.CLI\\RDBMS.CLI.csproj|d:\\swdev\\aspnet\\rdbms\\rdbms.cli\\rdbms.cli.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{D5F1460B-9FF9-4AF2-99CF-48864B8974FE}|RDBMS.CLI\\RDBMS.CLI.csproj|solutionrelative:rdbms.cli\\rdbms.cli.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5F1460B-9FF9-4AF2-99CF-48864B8974FE}|RDBMS.CLI\\RDBMS.CLI.csproj|d:\\swdev\\aspnet\\rdbms\\rdbms.cli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5F1460B-9FF9-4AF2-99CF-48864B8974FE}|RDBMS.CLI\\RDBMS.CLI.csproj|solutionrelative:rdbms.cli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 265,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,13 +70,49 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.CLI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "RDBMS.CLI\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.CLI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "RDBMS.CLI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-17T11:30:29.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RDBMS.CLI",
+              "DocumentMoniker": "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.CLI\\RDBMS.CLI.csproj",
+              "RelativeDocumentMoniker": "RDBMS.CLI\\RDBMS.CLI.csproj",
+              "ToolTip": "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.CLI\\RDBMS.CLI.csproj",
+              "RelativeToolTip": "RDBMS.CLI\\RDBMS.CLI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-17T11:24:35.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.CLI\\Program.cs",
+              "RelativeDocumentMoniker": "RDBMS.CLI\\Program.cs",
+              "ToolTip": "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.CLI\\Program.cs",
+              "RelativeToolTip": "RDBMS.CLI\\Program.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAUwDsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T11:14:23.186Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AppHost.cs",
               "DocumentMoniker": "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.AppHost\\AppHost.cs",
               "RelativeDocumentMoniker": "RDBMS.AppHost\\AppHost.cs",
               "ToolTip": "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.AppHost\\AppHost.cs",
               "RelativeToolTip": "RDBMS.AppHost\\AppHost.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-17T10:47:31.426Z",
               "EditorCaption": ""
@@ -72,7 +120,7 @@
           ]
         },
         {
-          "DockedWidth": 232,
+          "DockedWidth": 111,
           "SelectedChildIndex": -1,
           "Children": [
             {

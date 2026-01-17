@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\RDBMS.Core\RDBMS.Core.csproj" />
+    <ProjectReference Include="..\RDBMS.ServiceDefaults\RDBMS.ServiceDefaults.csproj" />
   </ItemGroup>
 
 </Project>

@@ -228,7 +228,6 @@ D:\SWDev\aspnet\RDBMS\RDBMS.WebApi\obj\Debug\net8.0\staticwebassets.build.json
 D:\SWDev\aspnet\RDBMS\RDBMS.WebApi\obj\Debug\net8.0\staticwebassets.build.json.cache
 D:\SWDev\aspnet\RDBMS\RDBMS.WebApi\obj\Debug\net8.0\staticwebassets.development.json
 D:\SWDev\aspnet\RDBMS\RDBMS.WebApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\SWDev\aspnet\RDBMS\RDBMS.WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\SWDev\aspnet\RDBMS\RDBMS.WebApi\obj\Debug\net8.0\RDBMS.We.2E287AC4.Up2Date
 D:\SWDev\aspnet\RDBMS\RDBMS.WebApi\obj\Debug\net8.0\RDBMS.WebApi.dll
 D:\SWDev\aspnet\RDBMS\RDBMS.WebApi\obj\Debug\net8.0\refint\RDBMS.WebApi.dll

@@ -1,7 +1,11 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-// API service for communicating with SimpleRDBMS Web API
+// Aspire injects this from the AppHost configuration above.
+const rawBaseUrl = process.env.NEXT_PUBLIC_API_URL;
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://localhost:7218/api';
+// Ensure we have a valid URL and append /api
+const API_BASE_URL = rawBaseUrl 
+  ? `${rawBaseUrl.replace(/\/$/, '')}/api` 
+  : 'https://localhost:7218/api'; // This fallback is now only for running without Aspire
 
 export interface Task {
   Id: number;

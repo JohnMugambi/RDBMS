@@ -366,3 +366,4 @@ D:\SWDev\aspnet\RDBMS\RDBMS.AppHost\obj\Debug\net8.0\refint\RDBMS.AppHost.dll
 D:\SWDev\aspnet\RDBMS\RDBMS.AppHost\obj\Debug\net8.0\RDBMS.AppHost.pdb
 D:\SWDev\aspnet\RDBMS\RDBMS.AppHost\obj\Debug\net8.0\RDBMS.AppHost.genruntimeconfig.cache
 D:\SWDev\aspnet\RDBMS\RDBMS.AppHost\obj\Debug\net8.0\ref\RDBMS.AppHost.dll
+D:\SWDev\aspnet\RDBMS\RDBMS.AppHost\bin\Debug\net8.0\Aspire.Hosting.NodeJs.dll

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "RDBMS.CLI": {
+      "commandName": "Project",
+      "commandLineArgs": "--data C:\\Users\\mugambi\\.rdbms"
+    }
+  }
+}

@@ -10,14 +10,33 @@ A lightweight, SQL-compatible RDBMS built from scratch in C# for the Pesapal Jun
 
 ### Installation & Run
 
+#### Quick Start (The Aspire Way)
 ```bash
 # Clone repository
 git clone <repository-url>
 cd RDBMS
 
-# Build & run the interactive shell
+# Run the entire distributed application
+dotnet run --project RDBMS.AppHost
+```
+Once running, open the Aspire Dashboard URL provided in the terminal to monitor the Web API and Frontend.
+![Alternative Text](Screenshots/RDBMS-resources.png)
+
+Sample task management app can be found y browsing to the respective url
+![Alternative Text](Screenshots/Task-Manager.png)
+
+#### Running the Interactive REPL (CLI)
+Since .NET Aspire redirects console output to a web dashboard, the dashboard view is read-only. 
+To use the interactive shell (REPL) where you can type commands:
+
+```bash
+![Alternative Text](Screenshots/Repl.png)
+
+# In Terminal (Start the Interactive Shell)
 cd RDBMS.CLI
-dotnet run
+dotnet run 
+#or
+dotnet run -- --data ~/.rdbms 
 ```
 
 ## Core Features
@@ -197,13 +216,13 @@ The demo script covers:
 
 ```
 RDBMS/
-├── RDBMS.Core/                # Core RDBMS engine
-│   ├── Models/                # Data structures
-│   ├── Parsing/               # Tokenizer & Parser
-│   ├── Execution/             # Query executors
-│   └── Storage/               # File persistence
-├── RDBMS.CLI/                 # Interactive shell
-└── RDBMS.Tests/               # Test suite (145+ tests)
+├── RDBMS.AppHost/            # .NET Aspire Orchestrator (Startup Project)
+├── RDBMS.ServiceDefaults/    # Shared telemetry & health checks
+├── RDBMS.Core/               # Core RDBMS engine (Parsing, Storage, Execution)
+├── RDBMS.WebApi/             # ASP.NET Core API wrapper
+├── RDBMS.CLI/                # Interactive shell (REPL)
+├── rbdms-client/             # Next.js Frontend Dashboard
+└── RDBMS.Tests/              # Test suite (145+ tests)
 ```
 
 ## Data Storage
