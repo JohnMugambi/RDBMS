@@ -30,7 +30,6 @@ Since .NET Aspire redirects console output to a web dashboard, the dashboard vie
 To use the interactive shell (REPL) where you can type commands:
 
 ```bash
-![Alternative Text](Screenshots/Repl.png)
 
 # In Terminal (Start the Interactive Shell)
 cd RDBMS.CLI
@@ -38,6 +37,8 @@ dotnet run
 #or
 dotnet run -- --data ~/.rdbms 
 ```
+![Alternative Text](Screenshots/Repl.png)
+
 
 ## Core Features
 

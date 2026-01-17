@@ -250,6 +250,7 @@ D:\SWDev\aspnet\RDBMS\RDBMS.AppHost\bin\Debug\net8.0\RDBMS.AppHost.dll
 D:\SWDev\aspnet\RDBMS\RDBMS.AppHost\bin\Debug\net8.0\RDBMS.AppHost.pdb
 D:\SWDev\aspnet\RDBMS\RDBMS.AppHost\bin\Debug\net8.0\Aspire.Hosting.dll
 D:\SWDev\aspnet\RDBMS\RDBMS.AppHost\bin\Debug\net8.0\Aspire.Hosting.AppHost.dll
+D:\SWDev\aspnet\RDBMS\RDBMS.AppHost\bin\Debug\net8.0\Aspire.Hosting.NodeJs.dll
 D:\SWDev\aspnet\RDBMS\RDBMS.AppHost\bin\Debug\net8.0\HealthChecks.Uris.dll
 D:\SWDev\aspnet\RDBMS\RDBMS.AppHost\bin\Debug\net8.0\Fractions.dll
 D:\SWDev\aspnet\RDBMS\RDBMS.AppHost\bin\Debug\net8.0\Google.Protobuf.dll
@@ -366,4 +367,3 @@ D:\SWDev\aspnet\RDBMS\RDBMS.AppHost\obj\Debug\net8.0\refint\RDBMS.AppHost.dll
 D:\SWDev\aspnet\RDBMS\RDBMS.AppHost\obj\Debug\net8.0\RDBMS.AppHost.pdb
 D:\SWDev\aspnet\RDBMS\RDBMS.AppHost\obj\Debug\net8.0\RDBMS.AppHost.genruntimeconfig.cache
 D:\SWDev\aspnet\RDBMS\RDBMS.AppHost\obj\Debug\net8.0\ref\RDBMS.AppHost.dll
-D:\SWDev\aspnet\RDBMS\RDBMS.AppHost\bin\Debug\net8.0\Aspire.Hosting.NodeJs.dll
