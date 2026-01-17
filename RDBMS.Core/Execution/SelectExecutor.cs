@@ -27,9 +27,10 @@ namespace RDBMS.Core.Execution
                 var table = _storage.GetTable(query.TableName);
 
                 // Start with all rows from main table - convert Row objects to dictionaries
+                // Add table prefix for internal JOIN logic
                 List<Dictionary<string, object?>> resultRows = table.Rows
                     .Select(r => r.Data.ToDictionary(
-                        kvp => $"{query.TableName}.{kvp.Key}",  // Add table prefix!
+                        kvp => $"{query.TableName}.{kvp.Key}",  // Qualified for JOIN matching
                         kvp => kvp.Value
                     ))
                     .ToList();
@@ -58,8 +59,8 @@ namespace RDBMS.Core.Execution
                     resultRows = resultRows.Take(query.Limit.Value).ToList();
                 }
 
-                // Project columns
-                var projectedRows = ProjectColumns(resultRows, query.Columns, table);
+                // Project columns (this will strip table qualifiers for output)
+                var projectedRows = ProjectColumns(resultRows, query.Columns, query);
 
                 // Build result
                 var result = new QueryResult
@@ -158,9 +159,9 @@ namespace RDBMS.Core.Execution
         }
 
         private bool EvaluateJoinCondition(
-    Dictionary<string, object?> leftRow,
-    Dictionary<string, object?> rightRow,
-    JoinCondition condition)
+            Dictionary<string, object?> leftRow,
+            Dictionary<string, object?> rightRow,
+            JoinCondition condition)
         {
             // Build the qualified left column name
             var leftKey = $"{condition.LeftTable}.{condition.LeftColumn}";
@@ -339,7 +340,7 @@ namespace RDBMS.Core.Execution
         private List<Dictionary<string, object?>> ProjectColumns(
             List<Dictionary<string, object?>> rows,
             List<SelectColumn> selectColumns,
-            Table mainTable)
+            SelectQuery query)
         {
             // If no rows, return empty list
             if (rows.Count == 0)
@@ -350,7 +351,11 @@ namespace RDBMS.Core.Execution
             // Check if selecting all columns (*)
             if (selectColumns.Count == 1 && selectColumns[0].IsWildcard)
             {
-                return rows; // Return all columns as-is
+                // Strip table qualifiers for output - users want "id", not "users.id"
+                return rows.Select(row => row.ToDictionary(
+                    kvp => StripTableQualifier(kvp.Key),
+                    kvp => kvp.Value
+                )).ToList();
             }
 
             // Project specific columns
@@ -364,10 +369,11 @@ namespace RDBMS.Core.Execution
                 {
                     if (selectCol.IsWildcard)
                     {
-                        // Add all columns
+                        // Add all columns, stripping qualifiers
                         foreach (var kvp in row)
                         {
-                            projectedRow[kvp.Key] = kvp.Value;
+                            string unqualifiedKey = StripTableQualifier(kvp.Key);
+                            projectedRow[unqualifiedKey] = kvp.Value;
                         }
                     }
                     else
@@ -379,10 +385,12 @@ namespace RDBMS.Core.Execution
 
                         object? value = GetColumnValue(row, columnKey);
 
-                        // Use alias if provided, otherwise use column name
+                        // Determine output key:
+                        // 1. If alias provided: use alias
+                        // 2. Otherwise: use unqualified column name
                         string outputKey = !string.IsNullOrEmpty(selectCol.Alias)
                             ? selectCol.Alias
-                            : selectCol.ColumnName;
+                            : selectCol.ColumnName;  // Always unqualified unless aliased
 
                         projectedRow[outputKey] = value;
                     }
@@ -392,6 +400,16 @@ namespace RDBMS.Core.Execution
             }
 
             return projectedRows;
+        }
+
+        /// <summary>
+        /// Strips the table qualifier from a column name
+        /// Example: "users.id" -> "id", "id" -> "id"
+        /// </summary>
+        private string StripTableQualifier(string columnName)
+        {
+            int dotIndex = columnName.LastIndexOf('.');
+            return dotIndex >= 0 ? columnName.Substring(dotIndex + 1) : columnName;
         }
     }
 }

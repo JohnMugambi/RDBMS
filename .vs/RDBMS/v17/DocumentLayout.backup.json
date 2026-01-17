@@ -1,18 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\",
+  "WorkspaceRootPath": "D:\\SWDev\\aspnet\\RDBMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D5F1460B-9FF9-4AF2-99CF-48864B8974FE}|RDBMS.CLI\\RDBMS.CLI.csproj|d:\\mugambi\\selfprojects\\c#\\rdbms\\rdbms.cli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5F1460B-9FF9-4AF2-99CF-48864B8974FE}|RDBMS.CLI\\RDBMS.CLI.csproj|solutionrelative:rdbms.cli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C74E63F-9AF3-06C4-D05D-9DBF63CE1D48}|RDBMS.WebApi\\RDBMS.WebApi.csproj|d:\\swdev\\aspnet\\rdbms\\rdbms.webapi\\controllers\\databasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C74E63F-9AF3-06C4-D05D-9DBF63CE1D48}|RDBMS.WebApi\\RDBMS.WebApi.csproj|solutionrelative:rdbms.webapi\\controllers\\databasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5F1460B-9FF9-4AF2-99CF-48864B8974FE}|RDBMS.CLI\\RDBMS.CLI.csproj|d:\\mugambi\\selfprojects\\c#\\rdbms\\rdbms.cli\\repl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5F1460B-9FF9-4AF2-99CF-48864B8974FE}|RDBMS.CLI\\RDBMS.CLI.csproj|solutionrelative:rdbms.cli\\repl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB476AD9-2AF7-4A49-9915-69E78B30E5FB}|RDBMS.Core\\RDBMS.Core.csproj|d:\\swdev\\aspnet\\rdbms\\rdbms.core\\storage\\filestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB476AD9-2AF7-4A49-9915-69E78B30E5FB}|RDBMS.Core\\RDBMS.Core.csproj|solutionrelative:rdbms.core\\storage\\filestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5F1460B-9FF9-4AF2-99CF-48864B8974FE}|RDBMS.CLI\\RDBMS.CLI.csproj|d:\\mugambi\\selfprojects\\c#\\rdbms\\rdbms.cli\\tableprinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5F1460B-9FF9-4AF2-99CF-48864B8974FE}|RDBMS.CLI\\RDBMS.CLI.csproj|solutionrelative:rdbms.cli\\tableprinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EB476AD9-2AF7-4A49-9915-69E78B30E5FB}|RDBMS.Core\\RDBMS.Core.csproj|d:\\swdev\\aspnet\\rdbms\\rdbms.core\\execution\\selectexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB476AD9-2AF7-4A49-9915-69E78B30E5FB}|RDBMS.Core\\RDBMS.Core.csproj|solutionrelative:rdbms.core\\execution\\selectexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB476AD9-2AF7-4A49-9915-69E78B30E5FB}|RDBMS.Core\\RDBMS.Core.csproj|d:\\swdev\\aspnet\\rdbms\\rdbms.core\\execution\\queryexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB476AD9-2AF7-4A49-9915-69E78B30E5FB}|RDBMS.Core\\RDBMS.Core.csproj|solutionrelative:rdbms.core\\execution\\queryexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9BB1AA-4C8C-47DB-8856-0A2ED60F862F}|RDBMS.Core.Tests\\RDBMS.Core.Tests.csproj|d:\\swdev\\aspnet\\rdbms\\rdbms.core.tests\\queryexecutortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A9BB1AA-4C8C-47DB-8856-0A2ED60F862F}|RDBMS.Core.Tests\\RDBMS.Core.Tests.csproj|solutionrelative:rdbms.core.tests\\queryexecutortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB476AD9-2AF7-4A49-9915-69E78B30E5FB}|RDBMS.Core\\RDBMS.Core.csproj|d:\\swdev\\aspnet\\rdbms\\rdbms.core\\execution\\updateexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB476AD9-2AF7-4A49-9915-69E78B30E5FB}|RDBMS.Core\\RDBMS.Core.csproj|solutionrelative:rdbms.core\\execution\\updateexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,9 +33,17 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "DockedWidth": 265,
+          "SelectedChildIndex": 15,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -42,10 +62,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:402802218:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
             },
             {
@@ -61,52 +77,97 @@
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileStorage.cs",
+              "DocumentMoniker": "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.Core\\Storage\\FileStorage.cs",
+              "RelativeDocumentMoniker": "RDBMS.Core\\Storage\\FileStorage.cs",
+              "ToolTip": "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.Core\\Storage\\FileStorage.cs",
+              "RelativeToolTip": "RDBMS.Core\\Storage\\FileStorage.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAqwLwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T10:10:37.403Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.CLI\\Program.cs",
-              "RelativeDocumentMoniker": "RDBMS.CLI\\Program.cs",
-              "ToolTip": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.CLI\\Program.cs",
-              "RelativeToolTip": "RDBMS.CLI\\Program.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAYwCUAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "QueryExecutor.cs",
+              "DocumentMoniker": "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.Core\\Execution\\QueryExecutor.cs",
+              "RelativeDocumentMoniker": "RDBMS.Core\\Execution\\QueryExecutor.cs",
+              "ToolTip": "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.Core\\Execution\\QueryExecutor.cs",
+              "RelativeToolTip": "RDBMS.Core\\Execution\\QueryExecutor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T12:50:17.812Z",
+              "WhenOpened": "2026-01-17T09:56:44.967Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Tableprinter.cs",
-              "DocumentMoniker": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.CLI\\Tableprinter.cs",
-              "RelativeDocumentMoniker": "RDBMS.CLI\\Tableprinter.cs",
-              "ToolTip": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.CLI\\Tableprinter.cs",
-              "RelativeToolTip": "RDBMS.CLI\\Tableprinter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Title": "SelectExecutor.cs",
+              "DocumentMoniker": "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.Core\\Execution\\SelectExecutor.cs",
+              "RelativeDocumentMoniker": "RDBMS.Core\\Execution\\SelectExecutor.cs",
+              "ToolTip": "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.Core\\Execution\\SelectExecutor.cs",
+              "RelativeToolTip": "RDBMS.Core\\Execution\\SelectExecutor.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAUwJ4BAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T12:41:34.728Z",
+              "WhenOpened": "2026-01-17T09:56:21.462Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Repl.cs",
-              "DocumentMoniker": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.CLI\\Repl.cs",
-              "RelativeDocumentMoniker": "RDBMS.CLI\\Repl.cs",
-              "ToolTip": "D:\\Mugambi\\SelfProjects\\c#\\RDBMS\\RDBMS.CLI\\Repl.cs",
-              "RelativeToolTip": "RDBMS.CLI\\Repl.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAADgv14AAAAkAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "UpdateExecutor.cs",
+              "DocumentMoniker": "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.Core\\Execution\\UpdateExecutor.cs",
+              "RelativeDocumentMoniker": "RDBMS.Core\\Execution\\UpdateExecutor.cs",
+              "ToolTip": "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.Core\\Execution\\UpdateExecutor.cs",
+              "RelativeToolTip": "RDBMS.Core\\Execution\\UpdateExecutor.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAADsAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T12:29:23.288Z",
+              "WhenOpened": "2026-01-17T08:55:43.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QueryExecutorTests.cs",
+              "DocumentMoniker": "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.Core.Tests\\QueryExecutorTests.cs",
+              "RelativeDocumentMoniker": "RDBMS.Core.Tests\\QueryExecutorTests.cs",
+              "ToolTip": "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.Core.Tests\\QueryExecutorTests.cs",
+              "RelativeToolTip": "RDBMS.Core.Tests\\QueryExecutorTests.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAOgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T08:15:11.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DatabaseController.cs",
+              "DocumentMoniker": "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.WebApi\\Controllers\\DatabaseController.cs",
+              "RelativeDocumentMoniker": "RDBMS.WebApi\\Controllers\\DatabaseController.cs",
+              "ToolTip": "D:\\SWDev\\aspnet\\RDBMS\\RDBMS.WebApi\\Controllers\\DatabaseController.cs",
+              "RelativeToolTip": "RDBMS.WebApi\\Controllers\\DatabaseController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAuwFgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T07:52:12.353Z",
               "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 1354,
+          "DockedWidth": 111,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 232,
           "SelectedChildIndex": -1,
           "Children": [
             {

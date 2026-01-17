@@ -4,14 +4,46 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace RDBMS.Core.Storage;
 
+/// <summary>
+/// Converts object? types during JSON deserialization to prevent JsonElement
+/// </summary>
+public class ObjectToInferredTypesConverter : JsonConverter<object>
+{
+    public override object? Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
+    {
+        return reader.TokenType switch
+        {
+            JsonTokenType.True => true,
+            JsonTokenType.False => false,
+            JsonTokenType.Number when reader.TryGetInt64(out long l) => l,
+            JsonTokenType.Number => reader.GetDouble(),
+            JsonTokenType.String when reader.TryGetDateTime(out DateTime datetime) => datetime,
+            JsonTokenType.String => reader.GetString(),
+            JsonTokenType.Null => null,
+            _ => JsonDocument.ParseValue(ref reader).RootElement.Clone()
+        };
+    }
+
+    public override void Write(Utf8JsonWriter writer, object value, JsonSerializerOptions options)
+    {
+        if (value == null)
+        {
+            writer.WriteNullValue();
+        }
+        else
+        {
+            JsonSerializer.Serialize(writer, value, value.GetType(), options);
+        }
+    }
+}
 
 /// <summary>
 /// Handles low-level file I/O operations
 /// </summary>
-/// 
 public class FileStorage
 {
     private readonly string _dataDirectory;
@@ -21,8 +53,8 @@ public class FileStorage
     {
         _dataDirectory = dataDirectory;
 
-        //ensure dir exists
-        if (Directory.Exists(_dataDirectory))
+        // Ensure dir exists
+        if (!Directory.Exists(_dataDirectory))
         {
             Directory.CreateDirectory(_dataDirectory);
         }
@@ -31,10 +63,12 @@ public class FileStorage
         {
             WriteIndented = true,
             PropertyNameCaseInsensitive = true,
+            // Add the converter to handle object? types properly
+            Converters = { new ObjectToInferredTypesConverter() }
         };
     }
 
-    ///<summary>
+    /// <summary>
     /// Gets the file path for a table's schema
     /// </summary>
     public string GetSchemaPath(string tableName)

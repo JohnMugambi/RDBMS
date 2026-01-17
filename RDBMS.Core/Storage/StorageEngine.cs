@@ -81,6 +81,14 @@ public class StorageEngine
         return _tableManager.ListTables();
     }
 
+    /// <summary>
+    /// Gets all table names (alias for ListTables for consistency)
+    /// </summary>
+    public List<string> GetAllTableNames()
+    {
+        return _tableManager.ListTables();
+    }
+
     #endregion
 
     #region Row Operations
